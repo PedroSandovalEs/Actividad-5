@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1f1f1f, #333);
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+header {
+  background: linear-gradient(90deg, #3a0ca3, #7209b7);
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+header h1 {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+}
+
+h2, h3 {
+  color: #ffb703;
+  margin-top: 0;
+}
+
+article p {
+  line-height: 1.6;
+  color: #d0d0d0;
+}
+
+.comment-form input,
+.comment-form textarea,
+.comment-form button {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+
+.comment-form input,
+.comment-form textarea {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  outline: none;
+}
+
+.comment-form input::placeholder,
+.comment-form textarea::placeholder {
+  color: #bbb;
+}
+
+.comment-form button {
+  background: linear-gradient(90deg, #ffb703, #fb8500);
+  color: #222;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.comment-form button:hover {
+  transform: scale(1.05);
+}
+
+.comment-form .btn-delete {
+  background: linear-gradient(90deg, #d00000, #9d0208);
+  color: #fff;
+}
+
+.comment-form .btn-delete:hover {
+  transform: scale(1.05);
+}
+
+.comment {
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding: 15px 0;
+}
+
+.comment strong {
+  color: #ffb703;
+  font-size: 1.1rem;
+}
+
+.comment p {
+  margin: 5px 0;
+  color: #eee;
+}
+
+.comment img {
+  max-width: 250px;
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 2px solid #ffb703;
+}
+
+.comment small {
+  color: #bbb;
+}
